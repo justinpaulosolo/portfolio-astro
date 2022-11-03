@@ -1,7 +1,33 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import profile from "/profile.jpeg";
 ---
 <Layout title="Justin Solo">
+  <div class="flex flex-col justify-center items-center h-[calc(100vh-128px)]">
+      <div class="flex justify-between items-center space-x-8">
+        <div class="flex flex-col space-y-2">
+          <h1 class="text-5xl font-bold">Justin Solo</h1>
+          <p class="text-sm uppercase tracking-wider">Software Engineer / Creator</p>
+          <p>I'm passionate about creating innovative and accessible full-stack applications.</p>
+          <p>I'm currently looking for a new role as developer. Hire me?</p>
+          <div>
+            <button class="drop-shadow-md bg-gray-900 border border-gray-900 text-white rounded py-2 px-6 text-sm hover:bg-gray-800">
+              <a href="https://www.linkedin.com/in/justinpaulosolo/" target="_blank" rel="noopener noreferrer">
+                View Linkedin
+              </a>
+            </button>
+            <button class="drop-shadow-md bg-gray-50 border border-gray-200 text-gray-600 rounded py-2 px-6 text-sm hover:bg-gray-100">
+              <a href="https://github.com/justinpaulosolo" target="_blank" rel="noopener noreferrer">
+                View Github
+              </a>
+            </button>
+          </div>
+        </div>
+        <img src={profile} alt="Justin Solo" class="w-48 h-48 rounded-full mx-auto" />
+      </div>
+      <div>
+      </div>
+  </div>
 
 </Layout>
 
