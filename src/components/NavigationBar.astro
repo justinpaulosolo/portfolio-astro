@@ -6,21 +6,21 @@ const currentPath = pathname === '/' ? 'home' : pathname.slice(1);
   <div class="max-w-4xl mx-auto">
     <div class="flex justify-between">
       <div class="flex">
-        <p class="uppercase font-base tracking-wide px-2 py-5">
+        <p class="uppercase font-base tracking-wide px-2 py-5 text-2xl">
           Justin<span class="font-bold text-gray-700">Solo</span>
         </p>
       </div>
-      <div class="flex space-x-4 text-gray-500">
-        <a href="/" class={`px-2 py-5 ${currentPath === 'home' ? 'font-medium' : ''}`}>
+      <div class="flex space-x-4 text-gray-500 items-center">
+        <a href="/" class={`px-2 py-5 ${currentPath === 'home' ? 'font-medium' : 'font-base'}`}>
           Home
         </a>
-        <a href="/about" class={`px-2 py-5 ${currentPath === 'about' ? 'font-medium' : ''}`}>
+        <a href="/about" class={`px-2 py-5 ${currentPath === 'about' ? 'font-medium' : 'font-base'}`}>
           About
         </a>
-        <a href="/projects" class={`px-2 py-5 ${currentPath === 'projects' ? 'font-medium' : ''}`}>
+        <a href="/projects" class={`px-2 py-5 ${currentPath === 'projects' ? 'font-medium' : 'font-base'}`}>
           Projects
         </a>
-        <a href="/contact" class={`px-2 py-5 ${currentPath === 'contact' ? 'font-medium' : ''}`}>
+        <a href="/contact" class={`px-2 py-5 ${currentPath === 'contact' ? 'font-medium' : 'font-base'}`}>
           Contact
         </a>
       </div>
