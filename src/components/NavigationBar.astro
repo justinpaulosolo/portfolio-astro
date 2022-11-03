@@ -10,17 +10,17 @@ const currentPath = pathname === '/' ? 'home' : pathname.slice(1);
           Justin<span class="font-bold text-gray-700">Solo</span>
         </a>
       </div>
-      <div class="flex space-x-4 text-gray-500 items-center text-sm">
-        <a href="/" class={`px-2 py-5 ${currentPath === 'home' ? 'font-medium' : 'font-base'}`}>
+      <div class="flex space-x-2 text-gray-600 items-center font-normal text-sm">
+        <a href="/" class={`px-2 py-5 ${currentPath === 'home' ? 'text-black' : 'font-base'}`}>
           Home
         </a>
-        <a href="/about" class={`px-2 py-5 ${currentPath === 'about' ? 'font-medium' : 'font-base'}`}>
+        <a href="/about" class={`px-2 py-5 ${currentPath === 'about' ? 'text-black' : 'font-base'}`}>
           About
         </a>
-        <a href="/projects" class={`px-2 py-5 ${currentPath === 'projects' ? 'font-medium' : 'font-base'}`}>
+        <a href="/projects" class={`px-2 py-5 ${currentPath === 'projects' ? 'text-black' : 'font-base'}`}>
           Projects
         </a>
-        <a href="/contact" class={`px-2 py-5 ${currentPath === 'contact' ? 'font-medium' : 'font-base'}`}>
+        <a href="/contact" class={`px-2 py-5 ${currentPath === 'contact' ? 'text-black' : 'font-base'}`}>
           Contact
         </a>
       </div>
