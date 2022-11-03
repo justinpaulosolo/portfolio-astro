@@ -6,9 +6,9 @@ const currentPath = pathname === '/' ? 'home' : pathname.slice(1);
   <div class="max-w-4xl mx-auto">
     <div class="flex justify-between">
       <div class="flex">
-        <p class="uppercase font-base tracking-wide px-2 py-5">
+        <a href="/" class="uppercase font-base tracking-wide px-2 py-5">
           Justin<span class="font-bold text-gray-700">Solo</span>
-        </p>
+        </a>
       </div>
       <div class="flex space-x-4 text-gray-500 items-center text-sm">
         <a href="/" class={`px-2 py-5 ${currentPath === 'home' ? 'font-medium' : 'font-base'}`}>
