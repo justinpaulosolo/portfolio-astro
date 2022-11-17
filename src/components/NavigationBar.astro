@@ -11,9 +11,6 @@ const currentPath = pathname === '/' ? 'home' : pathname.slice(1);
         </a>
       </div>
       <div class="flex space-x-2 text-gray-600 items-center font-normal text-sm">
-        <a href="/" class={`px-2 py-5 ${currentPath === 'home' ? 'text-black' : 'font-base'}`}>
-          Home
-        </a>
         <a href="/about" class={`px-2 py-5 ${currentPath === 'about' ? 'text-black' : 'font-base'}`}>
           About
         </a>
